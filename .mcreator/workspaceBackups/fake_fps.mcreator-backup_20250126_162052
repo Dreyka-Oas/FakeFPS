@@ -1,0 +1,120 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShowFPS",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_fps",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/fake_fps/client/screens/ShowFPSOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "CreateFolder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_folder",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/fake_fps/procedures/CreateFolderProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Folder"
+    },
+    {
+      "name": "CreateFile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_file",
+      "metadata": {
+        "files": [
+          "src/main/java/oas/work/fake_fps/procedures/CreateFileProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Folder"
+    },
+    {
+      "name": "ReturnFPS",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "return_fps",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/oas/work/fake_fps/procedures/ReturnFPSProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ShowFPSActivated",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "show_fps_activated",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/oas/work/fake_fps/procedures/ShowFPSActivatedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "time",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "time_max",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "100.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Folder",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fake_fps",
+    "modName": "Fake FPS",
+    "version": "1.0.8",
+    "description": "Customizable fake FPS display.",
+    "author": "Dreyka Oas",
+    "websiteURL": "https://github.com/Dreyka-Oas/Fake-FPS",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Dreyka Oas",
+    "modElementsPackage": "oas.work.fake_fps"
+  },
+  "mcreatorVersion": 202400452410
+}
