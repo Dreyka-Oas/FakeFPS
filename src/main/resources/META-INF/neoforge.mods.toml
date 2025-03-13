@@ -4,11 +4,11 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="fake_fps"
-version="1.1.0"
+version="1.1.9"
 displayName="Fake FPS"
 displayURL="https://github.com/Dreyka-Oas/Fake-FPS"
 logoFile="logo.png"
-credits="Dreyka Oas"
+credits="O.A.S"
 authors="Dreyka Oas"
 description="Customizable fake FPS display."
 
@@ -18,7 +18,7 @@ description="Customizable fake FPS display."
 [[dependencies.fake_fps]]
     modId="neoforge"
     type="required"
-    versionRange="[21.4.78-beta,)"
+    versionRange="[21.4.101-beta,)"
     ordering="AFTER"
     side="BOTH"
 

@@ -101,7 +101,7 @@
   "workspaceSettings": {
     "modid": "fake_fps",
     "modName": "Fake FPS",
-    "version": "1.1.0",
+    "version": "1.1.9",
     "description": "Customizable fake FPS display.",
     "author": "Dreyka Oas",
     "websiteURL": "https://github.com/Dreyka-Oas/Fake-FPS",
@@ -113,8 +113,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.4",
-    "credits": "Dreyka Oas",
+    "credits": "O.A.S",
     "modElementsPackage": "oas.work.fake_fps"
   },
-  "mcreatorVersion": 202500105718
+  "mcreatorVersion": 202500110519
 }
